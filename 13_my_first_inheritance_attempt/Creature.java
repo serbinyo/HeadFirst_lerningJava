@@ -1,35 +1,37 @@
-public class Creature
+abstract public class Creature
 {
     private int age;
     private int weight;
 
-    public String eat()
+    public Creature () 
     {
-        return "";
+        System.out.println("Я Creature появился на свет");
     }
 
-    public String sleep()
+    public abstract String eat ();
+
+    public String sleep ()
     {
         return "Хррр ап ап храп..";
     }
 
-    public void setAge(int a)
+    public void setAge (int a)
     {
         age = a;
     }
 
-    public void setWeight(int w)
+    public void setWeight (int w)
     {
         weight = w;
     }
 
-    public int getAge()
+    public int getAge ()
     {
         return age;
 
     }
 
-    public int getWeight()
+    public int getWeight ()
     {
         return weight;
     }

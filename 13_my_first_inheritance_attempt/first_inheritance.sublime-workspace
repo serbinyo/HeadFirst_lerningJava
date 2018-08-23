@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"A",
+				"Animal"
+			],
+			[
+				"w",
+				"weight"
+			],
+			[
+				"ea",
+				"eatResult"
+			],
+			[
+				"a",
+				"abstract"
+			],
+			[
+				"set",
+				"setUpGame"
+			],
+			[
+				"DotC",
+				"DotComBust"
+			],
+			[
+				"dot",
+				"dotComToTest"
+			],
+			[
+				"new",
+				"newLocation"
+			],
+			[
+				"Dot",
+				"dotComList"
+			],
+			[
+				"for",
+				"fore\tfor (each)"
+			],
+			[
+				"do",
+				"dotComList"
+			],
+			[
+				"Do",
+				"DotCom"
+			],
+			[
+				"loca",
+				"locationCells"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"out",
+				"outer"
+			],
+			[
+				"cel",
+				"locationCells"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"imp",
+				"import"
+			],
+			[
+				"location",
+				"locationCells"
+			],
+			[
+				"l",
+				"locationCells"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"se",
+				"setSize"
+			],
+			[
+				"D",
+				"Dog"
+			],
+			[
+				"m",
+				"main\tmethod (main)"
+			],
+			[
+				"br",
+				"break"
+			],
+			[
+				"p3",
+				"p3IsRight"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"p2",
+				"p2IsRight"
+			],
+			[
+				"p1",
+				"p1IsRight"
+			],
+			[
+				"g",
+				"guessp1"
+			],
+			[
+				"gues",
+				"guessp1"
+			],
+			[
+				"p",
+				"println"
+			],
+			[
+				"v",
+				"void"
+			],
+			[
+				"s",
+				"static"
+			],
+			[
+				"pu",
+				"public"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: else"
+			],
+			[
+				"Snippet: ma",
+				"Snippet: method (main)"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/serba/Jprojects/13_my_first_inheritance_attempt"
+	],
+	"file_history":
+	[
+		"/home/serba/Jprojects/13_my_first_inheritance_attempt/Animal.java",
+		"/home/serba/Jprojects/13_my_first_inheritance_attempt/AnimalTestDrive.java",
+		"/home/serba/Jprojects/13_my_first_inheritance_attempt/CreatureTestDrive.java",
+		"/home/serba/Jprojects/13_my_first_inheritance_attempt/Creature.java",
+		"/home/serba/Jprojects/13_my_first_inheritance_attempt/CreatureTestDrive.class",
+		"/home/serba/Jprojects/12_mixmess/Mixed2.java",
+		"/home/serba/Jprojects/11_DotComGame/DotCom.java",
+		"/home/serba/Jprojects/11_DotComGame/DotComTestDrive.java",
+		"/home/serba/Jprojects/11_DotComGame/GameHelper.java",
+		"/home/serba/Jprojects/11_DotComGame/DotComBust.java",
+		"/home/serba/Jprojects/10_simpleDotCom/SimpleDotComTestDrive.java",
+		"/home/serba/Jprojects/10_simpleDotCom/SimpleDotComGame.java",
+		"/home/serba/Jprojects/Head-First-Java-master/chap05/GameHelper.java",
+		"/home/serba/Jprojects/11_DotComGame/SimpleDotComTestDrive.java",
+		"/home/serba/Jprojects/10_simpleDotCom/SimpleDotCom.java",
+		"/home/serba/Jprojects/11_DotComGame/SimpleDotCom.java",
+		"/home/serba/Jprojects/10_simpleDotCom/GameHelper.java",
+		"/home/serba/Jprojects/MixFor5/MixFor5.java",
+		"/home/serba/Jprojects/simpleDotCom/GameHelper.java",
+		"/home/serba/Jprojects/simpleDotCom/SimpleDotComGame.java",
+		"/home/serba/Jprojects/simpleDotCom/SimpleDotComTestDrive.java",
+		"/home/serba/Jprojects/simpleDotCom/SimpleDotCom.java",
+		"/home/serba/.config/sublime-text-3/Packages/Java/Snippets/method-(main).sublime-snippet",
+		"/home/serba/.config/sublime-text-3/Packages/Java/Snippets/static.sublime-snippet",
+		"/home/serba/.config/sublime-text-3/Packages/Python/Snippets/if-__name__-==-'__main__'.sublime-snippet",
+		"/home/serba/.config/sublime-text-3/Packages/Python/Snippets/method.sublime-snippet",
+		"/home/serba/Jprojects/dog2/Dog.java",
+		"/home/serba/Jprojects/dog2/DogTestDrive.java",
+		"/home/serba/Jprojects/DogTest1/DogsArrayTest.java",
+		"/home/serba/Jprojects/DogTest1/Dog.java",
+		"/home/serba/Jprojects/DogTest1/DogsArrayTest",
+		"/home/serba/Jprojects/PoolQuest2/Echo.java",
+		"/home/serba/Jprojects/PoolQuest2/EchoTestDrive.java",
+		"/home/serba/Jprojects/GuessGame/GameLauncher.java",
+		"/home/serba/Jprojects/GuessGame/Player.java",
+		"/home/serba/Jprojects/GuessGame/GuessGame.java",
+		"/home/serba/Jprojects/GuessGame/GuessGame",
+		"/home/serba/Jprojects/GuessGame/Player",
+		"/home/serba/Jprojects/GuessGame/GameLauncher",
+		"/home/serba/Jprojects/ShuffleMessages/ShuffleMessages.java"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"two"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"three"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "first_inheritance.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

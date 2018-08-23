@@ -2,7 +2,7 @@ public class CreatureTestDrive
 {
     public static void main(String[] args) 
     {
-        Creature c = new Creature();
+        C c = new C();
         c.setAge(3);
         c.setWeight(25);
 
@@ -15,5 +15,13 @@ public class CreatureTestDrive
         } else {
             System.out.println("Неудачно");
         }
+    }
+}
+
+class C extends Creature
+{
+    public String eat ()
+    {
+        return "";
     }
 }
