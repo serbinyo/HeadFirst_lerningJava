@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Interface",
+				"InterfaceAsParametr"
+			],
+			[
 				"A",
 				"Animal"
 			],
@@ -196,10 +200,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/serba/Jprojects/13_my_first_inheritance_attempt"
+		"/home/serba/Jprojects/Head-First-Java/13_my_first_inheritance_attempt"
 	],
 	"file_history":
 	[
+		"/home/serba/Jprojects/Head-First-Java/13_my_first_inheritance_attempt/HumanFootballer.java",
+		"/home/serba/Jprojects/Head-First-Java/13_my_first_inheritance_attempt/DogFootballer.java",
+		"/home/serba/Jprojects/Head-First-Java/13_my_first_inheritance_attempt/InterfaceAsParametrTestDrive.java",
+		"/home/serba/Jprojects/Head-First-Java/13_my_first_inheritance_attempt/DogPet.java",
 		"/home/serba/Jprojects/13_my_first_inheritance_attempt/Animal.java",
 		"/home/serba/Jprojects/13_my_first_inheritance_attempt/AnimalTestDrive.java",
 		"/home/serba/Jprojects/13_my_first_inheritance_attempt/CreatureTestDrive.java",

@@ -1,6 +1,6 @@
 public class DogPet extends Dog implements Pet
 {
-        public String voice (int x)
+    public String voice (int x)
     {
         String al = "";
         for (int i = 0; i < x; i++) {
