@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Phone validate</title>
+	<link rel="stylesheet" href="">
+	<script>
+		function phoneValidate (phoneNumber)
+		{
+			if (phoneNumber.length < 7 ||
+				phoneNumber.length > 8) {
+				return false;
+			}
+
+			if (phoneNumber.charAt(3) === "-") {
+
+				var numParts = phoneNumber.split("-");
+				if (isNaN(numParts[0]) || isNaN(numParts[1])) {
+					console.log(numParts);
+					return false
+				}
+			} else {
+				if (phoneNumber.length === 8) {
+					return false;
+				}
+
+				return !isNaN(phoneNumber);
+			}
+
+			return true;
+		}
+
+		console.log(phoneValidate("1.2-457"));
+		console.log(phoneValidate("12345678"));
+		console.log(phoneValidate("123-4567"));
+		console.log(phoneValidate("123-4567"));
+		console.log(phoneValidate("1.34567"));
+		console.log(phoneValidate("1.3-4.67"));
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
