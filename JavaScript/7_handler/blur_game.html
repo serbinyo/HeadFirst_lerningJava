@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Onload Handler Test</title>
+	<style> body { margin:20px; } </style>
+</head>
+<body>
+	<h2>Blur game</h2>
+	<img id="zero" src="zeroblur.jpg">
+	<script>
+		window.onload = init;
+
+		function init()
+		{
+			var image = document.getElementById("zero");
+			
+			image.onclick = function() {
+				image.src = "zero.jpg";
+			}; 
+		}
+
+	</script>
+</body>
+
+</html>

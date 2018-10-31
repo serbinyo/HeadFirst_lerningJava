@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Onload Handler Test</title>
+	<style> 
+		body { margin:20px; } 
+		img { margin:20px; } 
+	</style>
+</head>
+<body>
+	<h2>Blur game</h2>
+	<img id="zero" src="zeroblur.jpg">
+	<img id="one" src="oneblur.jpg">
+	<img id="two" src="twoblur.jpg">
+	<img id="three" src="threeblur.jpg">
+	<img id="four" src="fourblur.jpg">
+	<img id="five" src="fiveblur.jpg">
+	<script>
+		window.onload = init;
+
+		function init()
+		{
+			var images = document.getElementsByTagName("img");
+
+			for (var i = 0; i < images.length; i++) {
+				images[i].onclick = imagesHandler;
+			}			
+			
+		}
+
+		function imagesHandler(event) {
+			var image = event.target;
+			name = image.id + ".jpg"
+
+			image.src = name;
+			setTimeout(toDefault, 2000, image);
+		};
+
+		function toDefault(image){
+			var name = image.id + "blur.jpg";
+			image.src = name;
+		}
+
+	</script>
+</body>
+
+</html>
