@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ClosureHandler</title>
+	<style>
+		body, button: { margin: 10px; }
+		div { padding: 10px; }
+	</style>
+	<script type="text/javascript">
+
+		window.onload = init;
+		function init() {
+
+			var buttonClick = document.getElementById("clickme");
+			var buttonPush = document.getElementById("pushme");
+			
+			
+
+			function makeCounter()
+			{
+				var count = 0;
+
+				return function() 
+				{
+					count = count + 1;
+					return count;
+				}
+			}
+
+			buttonClickCounter = makeCounter();
+			buttonPushCounter = makeCounter();
+
+			buttonClick.onclick = function() 
+			{
+				var textBox = document.getElementById("messageClick");
+				textBox.innerHTML = "Вы нажали кнопку Click me! " + buttonClickCounter() + " раз.";
+
+			}
+
+			buttonPush.onclick = function() 
+			{
+				var textBox = document.getElementById("messagePush");
+				textBox.innerHTML = "Вы нажали кнопку Push me! " + buttonPushCounter() + " раз.";
+
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<button id="clickme">Click me!</button>
+	<button id="pushme">Push me!</button>
+	<div id="messageClick"></div>
+	<div id="messagePush"></div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dog Catcher</title>
+	<script type="text/javascript">
+
+		function Cat(name, breed, weigth) 
+		{
+			this.name = name;
+			this.breed = breed;
+			this.weigth = weigth;
+		}
+
+		function Dog(paramDog)
+		{
+			this.name = paramDog.name;
+			this.breed = paramDog.breed;
+			this.weigth = paramDog.weigth;
+			this.bark = function() {
+				return "Woof woof";
+			}
+		}
+
+		var meow = new Cat("Meow", "Seamis", 10);
+		var boris = new Cat("Boris", "Seamis", 12);
+
+		var rexParam = {
+			name: "Rex",
+			breed: "kavkazskaya",
+			weigth: 39
+		}
+
+		var jessieParam = {
+			name: "Jessie",
+			breed: "laika",
+			weigth: 30
+		}
+
+		var rex = new Dog(rexParam);
+		var jessie = new Dog(jessieParam);
+
+		var animals = [rex, meow, boris, jessie];
+
+		for (var i = 0; i < animals.length; i++) {
+			if(dogCatcher(animals[i])){
+				console.log( animals[i].name + " " + "- собака. Говорим: собачка ко мне? Ответ: " 
+					+ animals[i].bark() + ". Идем дальше...");
+			}
+		}
+
+		function dogCatcher(obj)
+		{
+			return (obj instanceof Dog);
+		}
+
+
+
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -20,14 +20,12 @@
 	<script>
 		window.onload = init;
 
-		var ya_tut = "yeaa";
-
 		function init()
 		{
 			var images = document.getElementsByTagName("img");
 
 			for (var i = 0; i < images.length; i++) {
-				images[i].onclick = imagesHandler;
+				images[i].onmouseover = imagesHandler;
 			}			
 			
 		}
@@ -37,16 +35,14 @@
 			name = image.id + ".jpg"
 
 			image.src = name;
-			setTimeout(toDefault, 2000);
-
-			function toDefault()
-			{
-				var name = image.id + "blur.jpg";
-				image.src = name;
-			}
+			image.onmouseout = toDefault;
 		};
 
-		
+		function toDefault(event){
+			var image = event.target;
+			var name = image.id + "blur.jpg";
+			image.src = name;
+		}
 
 	</script>
 </body>

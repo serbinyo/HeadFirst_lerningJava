@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>closure</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<script type="text/javascript">
+		
+		function getCounter()
+		{
+			var count = 0;
+
+			var counter = function () 
+			{
+				count = count + 1;
+				return count;
+			}
+
+			return counter;
+		}
+
+		var doCount = getCounter();
+		console.log(doCount());
+		console.log(doCount());
+		console.log(doCount());
+
+		console.log("_______________________________");
+		
+		function makeObjectCounter()
+		{
+			var count = 0;
+
+			return { 
+				increment : function () 
+				{
+					count = count + 1;
+					return count;
+				}
+			}		
+		}
+
+		var objectCounter = makeObjectCounter();
+		console.log(objectCounter.increment());
+		console.log(objectCounter.increment());
+		console.log(objectCounter.increment());
+
+		console.log("_______________________________");
+
+		function makePassword(password) {
+			return function(passwordGuess) 
+			{
+				return (passwordGuess === password);
+			}
+		}
+
+		var password = makePassword("12345");
+		if (password("fdsds")) {
+			console.log("Вы вошли");
+		} else {
+			console.log("Неверный пароль");
+		}
+
+		var password = makePassword("12345");
+		if (password("12345")) {
+			console.log("Вы вошли");
+		} else {
+			console.log("Неверный пароль");
+		}
+
+		console.log("_______________________________");
+
+		function multN(n) 
+		{
+			return function (x)
+			{
+				return n * x;
+			}
+		}
+
+		var mult5 = multN(5);
+		console.log(mult5(3));
+		console.log(mult5(5));
+		console.log(mult5(15));
+		console.log("");
+
+		var mult3 = multN(3);
+		console.log(mult3(3));
+		console.log(mult3(5));
+		console.log(mult3(15));
+
+		console.log("_______________________________");
+
+		
+
+		function makeTimer (doneMessage, n)
+		{
+			setTimeout(handler, n);
+
+			function handler()
+			{
+			console.log(doneMessage);
+			}
+		}
+
+		makeTimer("Cookies are ready", 1000)
+
+
+	</script>>
+</body>
+</html>

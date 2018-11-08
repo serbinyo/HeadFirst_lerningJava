@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Resize</title>
+	<script>
+		function resize()
+		{
+			var display = document.getElementById("display");
+			display.innerHTML = "Ohh no... I'm ticklish!";
+		}
+	</script>
+</head>
+<body>
+	<p id="display">
+		Don't resize!
+	</p>
+	<script>
+		window.onresize = resize;
+	</script>
+</body>
+
+</html>

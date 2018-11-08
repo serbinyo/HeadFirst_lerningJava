@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Coffe Shop</title>
+	<script type="text/javascript">
+
+		function Coffee (roast, ounces)
+		{
+			this.roast = roast;
+			this.ounces = ounces;
+
+			this.getSize = function() 
+			{
+				if (ounces == 8) {
+					return "small";
+				} else if (ounces == 12) {
+					return "medium";
+				} else if (ounces == 16) {
+					return "large"
+				}
+			};
+
+			this.toString = function() 
+			{
+				var str = "You've ordered a " + this.getSize() + " " + this.roast;
+				return str;
+			};
+		}
+
+		var houseBlend = new Coffee("House Blend", 12);
+		console.log(houseBlend.toString());	
+
+		var darkRoast = new Coffee("Dark Roast", 16);
+		console.log(darkRoast.toString());	
+
+		var espresso = new Coffee("Espresso", 8);
+		console.log(espresso.toString());	
+
+		var americano = new Coffee("Americano", 12);
+		console.log(americano.toString());
+
+		var capuccino = new Coffee("Capuccino", 16);
+		console.log(capuccino.toString());	
+
+	</script>
+</head>
+<body>
+</body>
+</html>

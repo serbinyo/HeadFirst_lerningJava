@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		Dog prototipe
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		function ucFirst (str) {
+			var head = str.charAt(0).toUpperCase();
+			var tail = str.substring(1);
+			return (head + tail);
+		}
+
+		function Dog (name, breed, weight)
+		{
+			this.name = name;
+			this.breed = breed;
+			this.weight = weight;
+		}
+
+		Dog.prototype.species = "Canine";
+		Dog.prototype.bark = function() {
+			if (this.weight < 15) {
+				return "Vaff Vaff";
+			} else {
+				return "Woof Woof";
+			}
+		}
+
+		var spike = new Dog ("Spike", "Dog", 26);
+		var chary = new Dog ("Chary", "Pikenes", 11);
+		var miranda = new Dog ("Miranda", "Kolly", 20);
+
+		miranda.bark = function() {
+			return "Raff Raff";
+		}
+
+		console.log(spike.name + " " + spike.breed + " " + 
+			spike.weight + " Says: " + spike.bark());
+		console.log(chary.name + " " + chary.breed + " " + 
+			chary.weight + " Says: " + chary.bark());
+		console.log(miranda.name + " " + miranda.breed + " " + 
+			miranda.weight + " Says: " + miranda.bark());
+
+		// function ShowDog (name, breed, weight, handler)
+		// {
+		// 	this.name = name;
+		// 	this.breed = breed;
+		// 	this.weight = weight;
+		// 	this.handler  = handler;
+		// }
+
+		function ShowDog (name, breed, weight, handler)
+		{
+			Dog.call(this, name, breed, weight);
+			this.handler  = handler;
+		}
+
+		ShowDog.prototype = new Dog();
+
+		ShowDog.prototype.league = "Webville";
+
+		ShowDog.prototype.stack = function () {
+			console.log("Stack");
+		}
+
+		ShowDog.prototype.bait = function () {
+			console.log("Bait");
+		}
+
+		ShowDog.prototype.gait = function (gait) {
+			gait = ucFirst(gait);
+			console.log(gait + "ing");
+		}
+
+		ShowDog.prototype.groom = function () {
+			console.log("Groom");
+		}
+
+		var scotty = new ShowDog("Scotty", "Scottish Terrier", 15, "Cookie");
+
+		console.log(scotty.name + " " + scotty.breed + " " + 
+			scotty.weight + " Says: " + scotty.bark());
+		scotty.stack();
+		scotty.gait("dance");
+		console.log(scotty.league);
+		console.log(scotty.species);
+		console.log(scotty.handler);
+
+		if (scotty instanceof Dog) {
+			alert("Scotty is a Dog");
+		}
+
+		if (scotty instanceof ShowDog) {
+			alert("Scotty is a ShowDog");
+		}
+
+		if (miranda instanceof Dog) {
+			alert("Miranda is a Dog");
+		}
+
+		if (miranda instanceof ShowDog) {
+			alert("Miranda is a ShowDog");
+		}
+
+		console.log(scotty.constructor);
+		console.log(miranda.constructor);
+
+		ShowDog.prototype.constructor = ShowDog;
+
+		console.log(scotty.constructor);
+		console.log(miranda.constructor);
+
+	</script>
+</body>
+</html>

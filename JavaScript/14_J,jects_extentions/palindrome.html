@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Robots</title>
+</head>
+<body>
+	<script>
+		
+		String.prototype.palindrome = function() {
+			var str = this.toString();
+			var strReverse = str.split("").reverse().join("");
+			return ( str === strReverse);
+		}
+
+		var str = "abcdefg";
+		console.log(str.palindrome());
+
+		var str = "aba";
+		console.log(str.palindrome());
+
+	</script>
+</body>
+</html>

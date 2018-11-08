@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<script type="text/javascript">
+	
+	var passengers = [
+	{ name: "Jane Doloop", paid: true, ticket: "coach"},
+	{ name: "Dr. Evil", paid: true, ticket: "firstclass"},
+	{ name: "Sue Property", paid: false, ticket: "coach"},
+	{ name: "John Funcall", paid: true, ticket: "econom"}
+	];
+
+	//Часть 1. На функции принемающие функции как параметр
+	function checkBlackList(passenger)
+	{
+		return (passenger.name === "Dr. Evil");
+	}
+
+	function checkUnpaid(passenger)
+	{
+		return (!passenger.paid);
+	}
+
+	function printPassenger(passenger)
+	{
+		console.log("Пассажир: " + passenger.name + " " + "Оплата: " + passenger.paid);
+		//return false;
+	}
+
+	function proccesPassengers(passengers, testFunction) 
+	{
+		for (var i = 0; i < passengers.length; i++) {
+			if (testFunction(passengers[i])) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	var allCanFly = proccesPassengers (passengers, checkBlackList);
+	if (!allCanFly) { console.log("Вылет запрещен. Есть пассажиры из черного списка") };
+
+	var allPaid = proccesPassengers (passengers, checkUnpaid);
+	if (!allPaid) { console.log("Вылет запрещен. Есть пассажиры не оплатившие билет") };
+
+	proccesPassengers (passengers, printPassenger);
+
+
+	//Часть 2 на функции возращающие функции
+	function servePassengers(passengers) 
+	{
+		alert("Здравствуйте, я ваш борт-проводник JavaScript код. И сегодня я позабочусь о Вашем обслуживании");
+
+		console.log("Бортпроводник включил ТВ");
+
+		for (var i = 0; i < passengers.length; i++) {
+			serveCustumer(passengers[i]);
+		}
+	}
+
+	function serveCustumer(passenger) 
+	{
+		var drinkOrder = createDrinkOrder(passenger);
+		var dinnerOrder = createDinnerOrder(passenger);
+
+		alert ("Здравствуйте " + passenger.name);
+		drinkOrder();
+		dinnerOrder();
+		alert ("Еще напиток...");
+		drinkOrder();
+	}
+
+	function createDrinkOrder(passenger) {
+		var drinkOrder;
+
+		if (passenger.ticket === "firstclass") {
+
+			drinkOrder = function() {
+				alert("Желаете коктель или вино?");
+			}
+
+		} else if (passenger.ticket === "coach") {
+
+			drinkOrder = function() {
+				alert("Желаете лимонад или воду?");
+			}
+			
+		} else {
+
+			drinkOrder = function() {
+				alert("Желаете лимонад, воду или вино?");
+			}
+
+		}
+
+		return drinkOrder;
+	}
+
+	function createDinnerOrder(passenger) {
+		var dinnerOrder;
+
+		if (passenger.ticket === "firstclass") {
+
+			dinnerOrder = function() {
+				alert("Желаете курицу или пасту?");
+			}
+
+		} else if (passenger.ticket === "coach") {
+
+			dinnerOrder = function() {
+				alert("Желаете орешки или сухарики?");
+			}
+
+		} else {
+
+			dinnerOrder = function() {
+				alert("Желаете закуски или сырную тарелку?");
+			}
+
+		}
+
+		return dinnerOrder;		
+	}
+
+
+
+	servePassengers(passengers);
+
+</script>>
+</body>
+</html>

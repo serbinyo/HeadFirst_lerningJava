@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Robots</title>
+</head>
+<body>
+	<script>
+		
+		function Robot (name, year, owner) {
+			this.name = name;
+			this.year = year;
+			this.owner = owner;
+		};
+
+		Robot.prototype.maker = "ObjectsRUs";
+
+		Robot.prototype.speak = function() {
+			alert("Beep beep");
+		};
+
+		Robot.prototype.makeCoffee = function () {
+			alert("Making coffee");
+		};
+
+		Robot.prototype.blinkLights = function () {
+			alert("Blinking lights");
+		};
+
+		var robby = new Robot("Robby", 1956, "Dr. Morbius");
+		var rosie = new Robot("Rosie", 1962, "George Jetson");
+
+		robby.onOffSwitch = true;
+		robby.makeCoffee = function () {
+			alert("Go to sturbucks for coffee");
+		}
+
+		rosie.cleanHouse = function() {
+			alert("Clean the house");
+		}
+
+		console.log(robby.name + " was made by " + robby.maker + " in " + robby.year
+			+ " and he is owned by " + robby.owner);
+
+		robby.makeCoffee();
+		robby.blinkLights();
+
+		console.log(rosie.name + " was made by " + rosie.maker + " in " + rosie.year
+			+ " and he is owned by " + rosie.owner);
+
+		rosie.cleanHouse();
+		rosie.makeCoffee();
+		rosie.blinkLights();
+
+
+
+		function SpaceRobot (name, year, owner, homePlanet)
+		{
+			this.name = name;
+			this.year = year;
+			this.owner = owner;
+			this.homePlanet = homePlanet;
+		}
+
+		SpaceRobot.prototype = new Robot();
+
+		SpaceRobot.prototype.speak = function(){
+			console.log(this.name + " says - I love Alfacentaura galaxy");
+		};
+
+		SpaceRobot.prototype.pilot = function(){
+			console.log(this.name + " driving ship in space");
+		};
+
+		var c3po = new SpaceRobot ("C3PO", 1977, "L. Skywolker", "Tatuin");
+
+		c3po.speak();
+		c3po.makeCoffee();
+		c3po.blinkLights();
+		c3po.pilot();
+
+	</script>
+</body>
+</html>
