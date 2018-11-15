@@ -36,3 +36,57 @@ VALUES
 );
 
 SELECT * FROM my_contacts;
+
+CREATE TABLE names 
+( 
+	id INT NOT NULL AUTO_INCREMENT, 
+	first_name VARCHAR(10), 
+	last_name VARCHAR(10), 
+	PRIMARY KEY (id)
+);
+
+SHOW CREATE TABLE names;
+
+INSERT INTO names
+(id, first_name, last_name)
+VALUES
+(NULL, 'Мария', 'Варди');
+
+INSERT INTO names
+(id, first_name, last_name)
+VALUES
+(1, 'Джен', 'Брэди');
+
+INSERT INTO names
+VALUES
+('', 'Бобби', 'Фулер');
+
+INSERT INTO names
+(first_name, last_name)
+VALUES
+('Синди', 'Кук');
+
+INSERT INTO names
+(id, first_name, last_name)
+VALUES
+(99, 'Питер', 'Паркер');
+
+SELECT * FROM names;
+
+ALTER TABLE my_contacts
+ADD COLUMN contact_id INT NOT NULL AUTO_INCREMENT,
+ADD PRIMARY KEY (contact_id); 
+
+SELECT * FROM my_contacts;
+
+ALTER TABLE my_contacts
+DROP COLUMN contact_id;
+
+ALTER TABLE my_contacts
+ADD COLUMN contact_id INT NOT NULL AUTO_INCREMENT FIRST,
+ADD PRIMARY KEY (contact_id);
+
+SELECT * FROM my_contacts;
+
+ALTER TABLE my_contacts
+ADD COLUMN tel_number VARCHAR(10);
