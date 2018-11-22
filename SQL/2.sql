@@ -95,3 +95,37 @@ cost >= 4;
 UPDATE drink_info
 SET color = 'золотистый'
 WHERE color = 'желтый';
+
+--Выражение CASE
+
+SELECT * FROM easy_drinks
+WHERE main =
+CASE
+ WHEN amount1 = 1.5
+  THEN 'Спрайт'
+ WHEN amount1 = 2
+  THEN 'яблочный сок'
+ ELSE 'содовая'
+END;
+
+--Сортировка
+
+SELECT drink_name FROM drink_info
+ORDER BY drink_name;
+
+SELECT drink_name FROM drink_info
+ORDER BY drink_name
+DESC;
+
+SELECT easy_drinks.main, easy_drinks.second
+FROM easy_drinks
+NATURAL JOIN drink_info
+WHERE drink_info.carbs = (
+SELECT MAX(carbs) FROM drink_info
+);
+
+SELECT easy_drinks.main, easy_drinks.second
+FROM easy_drinks
+NATURAL JOIN drink_info
+ORDER BY drink_info.carbs DESC
+LIMIT 1;

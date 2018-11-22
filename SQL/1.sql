@@ -22,8 +22,19 @@ profession, location, status, interests, seeking
 )
 VALUES
 ( 
-'Djillian', "Андерсон", "jill_anderson@breckneckpizza.com", "ж", "1980-05-09", 
+'Джиллиан', "Андерсон", "jill_anderson@breckneckpizza.com", "ж", "1980-05-09", 
 "Писатель", "Пало-Альто, СА", "Не замужем", "Каяк, террариум", "Друзья" 
+);
+
+INSERT INTO my_contacts
+(
+first_name, last_name, email, gender, birthday,
+profession, location, status, interests, seeking
+)
+VALUES
+( 
+'Кент', "Брокман", "kent_tv_maker@breckneckpizza.com", "м", "1972-05-19", 
+"Телеведущий", "Пало-Альто, СА", "Не женат", "Скачки, сигары", "Друзья" 
 );
 
 INSERT INTO doughnuts_list
@@ -73,6 +84,9 @@ VALUES
 
 SELECT * FROM names;
 
+
+--ИЗМЕНЕНИЕ СТРУКТУРЫ ТАБЛИЦы
+
 ALTER TABLE my_contacts
 ADD COLUMN contact_id INT NOT NULL AUTO_INCREMENT,
 ADD PRIMARY KEY (contact_id); 
@@ -90,3 +104,31 @@ SELECT * FROM my_contacts;
 
 ALTER TABLE my_contacts
 ADD COLUMN tel_number VARCHAR(10);
+
+--СТРОКОВЫЕ ФУНКЦИИ
+
+ALTER TABLE my_contacts
+ADD city VARCHAR(48) AFTER location,
+ADD state CHAR(2) AFTER city;
+
+UPDATE my_contacts
+SET state = RIGHT(location, 2),
+city = SUBSTRING_INDEX(location, ',', 1);
+
+ALTER TABLE my_contacts DROP COLUMN location;
+
+SELECT SUBSTRING('Сан-Антонио, TX', 5, 3);
+SELECT UPPER('моРОжЕнНоЕ');
+SELECT LOWER('моРОжЕнНоЕ');
+SELECT REVERSE('abcde');
+SELECT LTRIM(' собака ');
+SELECT RTRIM(' кошка ');
+SELECT LENGTH('abcde');
+
+CREATE TABLE profession 
+(
+	id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+	profession VARCHAR(50) NOT NULL
+) AS
+SELECT profession 
+FROM my_contacts;  
