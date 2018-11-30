@@ -125,6 +125,8 @@ SELECT LTRIM(' собака ');
 SELECT RTRIM(' кошка ');
 SELECT LENGTH('abcde');
 
+
+--Создание таблицы с набором данных при помощи ключевого слова AS
 CREATE TABLE profession 
 (
 	id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
@@ -132,3 +134,5 @@ CREATE TABLE profession
 ) AS
 SELECT profession 
 FROM my_contacts;  
+
+SELECT * FROM profession;
