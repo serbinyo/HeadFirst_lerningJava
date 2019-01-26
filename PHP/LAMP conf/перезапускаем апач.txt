@@ -1,0 +1,8 @@
+перезапускаем апач
+sudo /etc/init.d/apache2 restart
+или
+sudo /etc/init.d/apache2 reload (Вариант не убивая процесса)
+или
+sudo systemctl restart apache2
+Мы также можем проверить статус сервиса apache2 используя systemctl:
+sudo systemctl status apache2

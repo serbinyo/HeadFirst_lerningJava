@@ -1,0 +1,21 @@
+Как установить и включить mbstring
+Написано авторомVyacheslav	06.09.2017	
+Оставьте комментарий к Как установить и включить mbstring	
+
+Чтобы установить mbstring в Ubuntu/Debian необходимо выполнить команду:
+	
+sudo apt-get install php-mbstring
+
+
+Активировать/деактивировать модуль можно так:
+	
+sudo phpenmod mbstring
+sudo phpdismod mbstring
+
+Перезапустим Apache2 чтобы применить изменения:
+	
+sudo service apache2 restart
+
+Посмотрим активирован ли mbstring:
+	
+php -i | grep -i mbstring

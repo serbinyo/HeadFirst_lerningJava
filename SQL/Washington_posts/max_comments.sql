@@ -17,3 +17,4 @@ FROM comment
 GROUP BY post_id
 ORDER BY result DESC
 LIMIT 1);
+

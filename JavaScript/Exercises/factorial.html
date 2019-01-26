@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Функции вычисления факториала</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+<script type="text/javascript">
+	
+	var factorial = function (x) 
+	{
+		var result = 1;
+
+		while (x !== 0) {
+			result *= x;
+			x--;
+		}
+
+		return result;
+	}
+
+	var factorialRecursion = function (x)
+	{
+		if (x <= 1) return 1;
+		return x * factorialRecursion(x - 1);
+	}
+
+	console.log(factorial(1));
+	console.log(factorial(2));
+	console.log(factorial(3));
+	console.log(factorial(4));
+	console.log(factorial(5));
+	console.log('__________');
+	console.log(factorialRecursion(1));
+	console.log(factorialRecursion(2));
+	console.log(factorialRecursion(3));
+	console.log(factorialRecursion(4));
+	console.log(factorialRecursion(5));
+
+</script>
+</body>
+</html>
