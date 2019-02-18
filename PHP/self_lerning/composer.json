@@ -1,6 +1,7 @@
 {
     "require" : {
         "monolog/monolog" : "~1.0",
-        "psy/psysh" : "*"
+        "psy/psysh" : "*",
+        "squizlabs/php_codesniffer" : "*"
     }
 }

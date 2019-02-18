@@ -1,0 +1,18 @@
+Для PHP 7 и Ubuntu 14.04 процедура выглядит следующим образом. Поскольку PHP 7 не входит в официальные PPA-файлы Ubuntu, вы, вероятно, установили его через PPA Ондржея Сури (sudo add-apt-repository ppa: ondrej / php). Перейдите в
+/etc/php/7.2/apache2
+(вообще какой файл настроек активный смотреть в выводе функции phpinfo() )
+и отредактируйте php.ini, раскомментируйте следующую строку:
+
+extension=xmlrpc
+
+Then simply install php7.2-xml:
+
+sudo apt-get install php7.2-xml
+или можно просто
+sudo apt-get install php-xml для установки правильной версии
+
+And restart PHP:
+
+sudo /etc/init.d/apache2 restart
+
+

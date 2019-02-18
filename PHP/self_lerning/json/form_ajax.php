@@ -6,7 +6,7 @@
 	<title>Form AJAX JSON</title>
 </head>
 <body>
-	<form action="/json_answer.php">
+	<form action="json_answer.php">
 		<p id="js-hello"></p>
 		<p>Имя: <input type="text" name="firstname"></p>
 		<p>Фамилия: <input type="text" name="lastname"></p>
@@ -33,7 +33,7 @@
 				$.ajax({
 					url: $('form').prop('action'),
 					method: 'POST',
-					data: 'json_obj=' + JSON.stringify(json_obj)
+					data: 'json_to_send=' + JSON.stringify(json_obj)
 				})
 				// В случае успешного выполнения ответа выполняем действие
 				.done(function(msg){

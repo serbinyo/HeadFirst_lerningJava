@@ -8,17 +8,18 @@
 // echo "<br>Ваша переменная равна = " . $arr['ложка'];
 // echo "<br>Теп неинициализированной переменной: " . gettype($r) . "<br>";
 
-class SomeClass
-{
-	private $x = 100;
-}
+// class SomeClass
+// {
+//     private $x = 100;
+// }
 
-$obj = new SomeClass();
+// $obj = new SomeClass();
 
-echo "<pre>";
-var_export($obj);
-echo "</pre>";
+// echo "<pre>";
+// var_export($obj);
+// echo "</pre>";
 
 
-$st = `serba.com/c dir`;
-echo "<pre>$st</pre>";
+//phpinfo();
+
+echo "<a href='rarus_task2/task2.php'>rarus_task2/</a>";

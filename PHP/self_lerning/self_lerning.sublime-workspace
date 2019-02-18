@@ -1,0 +1,1157 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"inp",
+				"inputc\tinput - checkbox"
+			],
+			[
+				"input",
+				"inputs\tinput - submit"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"fa",
+				"fang_spotted"
+			],
+			[
+				"what",
+				"what_they_did"
+			],
+			[
+				"alien",
+				"alien_description"
+			],
+			[
+				"how",
+				"how_many"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"ke",
+				"key"
+			],
+			[
+				"mys",
+				"mysqli"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"ht",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"w",
+				"world"
+			],
+			[
+				"scr",
+				"script\t<script>"
+			],
+			[
+				"htm",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"suM",
+				"sumOfThree"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"optio",
+				"options"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"arr",
+				"arr_animal"
+			],
+			[
+				"str",
+				"str_animal"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"fac",
+				"factorialRecursion"
+			],
+			[
+				"sys",
+				"system"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"in",
+				"inputt\tinput - text"
+			],
+			[
+				"pb_",
+				"pb_quaters"
+			],
+			[
+				"Pr",
+				"profession"
+			],
+			[
+				"pig",
+				"piggy_bank"
+			],
+			[
+				"se",
+				"SELECT"
+			],
+			[
+				"ca",
+				"carbs"
+			],
+			[
+				"co",
+				"cookie_sales"
+			],
+			[
+				"sa",
+				"sales"
+			],
+			[
+				"sal",
+				"sale_date"
+			],
+			[
+				"DR",
+				"drink_name"
+			],
+			[
+				"drin",
+				"drink_info"
+			],
+			[
+				"con",
+				"con_name"
+			],
+			[
+				"pro",
+				"proj_desc"
+			],
+			[
+				"p",
+				"proj_id"
+			],
+			[
+				"project",
+				"project_list"
+			],
+			[
+				"VA",
+				"VARCHAR"
+			],
+			[
+				"v",
+				"VALUES"
+			],
+			[
+				"I",
+				"INSERT"
+			],
+			[
+				"drink",
+				"drink_info"
+			],
+			[
+				"Clo",
+				"clown_info"
+			],
+			[
+				"clow",
+				"clown_info"
+			],
+			[
+				"clo",
+				"clown_info"
+			],
+			[
+				"c",
+				"clown_info"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"со",
+				"содовая"
+			],
+			[
+				"sc",
+				"scotty"
+			],
+			[
+				"sub",
+				"substring\t( start: int, end: int ): string String"
+			],
+			[
+				"make",
+				"makeCoffee"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"bor",
+				"boris"
+			],
+			[
+				"rex",
+				"rexParam"
+			],
+			[
+				"getS",
+				"getSize"
+			],
+			[
+				"mu",
+				"multN"
+			],
+			[
+				"coun",
+				"counter"
+			],
+			[
+				"cal",
+				"calories"
+			],
+			[
+				"consol",
+				"console_log"
+			],
+			[
+				"check",
+				"checkUnpaid"
+			],
+			[
+				"ev",
+				"event"
+			],
+			[
+				"onmouse",
+				"onmousemove\t: EventHandler Window"
+			],
+			[
+				"img",
+				"img\tTag"
+			],
+			[
+				"script",
+				"script\tTag"
+			],
+			[
+				"setT",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"sty",
+				"style\tTag"
+			],
+			[
+				"h2",
+				"h2\tTag"
+			],
+			[
+				"loca",
+				"locations"
+			],
+			[
+				"directio",
+				"direction"
+			],
+			[
+				"Ma",
+				"Math_floor\t( x: number ): number Math"
+			],
+			[
+				"sh",
+				"shipSunk"
+			],
+			[
+				"lo",
+				"log\t( x: number ): number Math"
+			],
+			[
+				"else",
+				"else_if"
+			],
+			[
+				"toU",
+				"toUpperCase\t(): string String"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"index",
+				"indexOf\t( searchElement: any, fromIndex?: int ): int Array"
+			],
+			[
+				"location",
+				"locations"
+			],
+			[
+				"atr",
+				"setAttribute\t( name: DOMString, value: DOMString ): void Element"
+			],
+			[
+				"getElem",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"bord",
+				"border-spacing\tproperty"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"pho",
+				"phoneValidate"
+			],
+			[
+				"le",
+				"length\t: int Array"
+			],
+			[
+				"un",
+				"undefined\t: object Global"
+			],
+			[
+				"cos",
+				"costs"
+			],
+			[
+				"bes",
+				"bestSolutions"
+			],
+			[
+				"print",
+				"printBestSolutions"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"ind",
+				"index1"
+			],
+			[
+				"phrase",
+				"phraseGenerator"
+			],
+			[
+				"phras",
+				"phrase3"
+			],
+			[
+				"ph",
+				"phrase2"
+			],
+			[
+				"phra",
+				"phrases_array1"
+			],
+			[
+				"Str",
+				"StringBuilder"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"loc",
+				"location3"
+			],
+			[
+				"hi",
+				"hits"
+			],
+			[
+				"els",
+				"else_if"
+			],
+			[
+				"gues",
+				"guesses"
+			],
+			[
+				"is",
+				"isFinite\t( n: double ): boolean Global"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"isS",
+				"isSunk"
+			],
+			[
+				"Interface",
+				"InterfaceAsParametr"
+			],
+			[
+				"A",
+				"Animal"
+			],
+			[
+				"ea",
+				"eatResult"
+			],
+			[
+				"set",
+				"setUpGame"
+			],
+			[
+				"DotC",
+				"DotComBust"
+			],
+			[
+				"dot",
+				"dotComToTest"
+			],
+			[
+				"new",
+				"newLocation"
+			],
+			[
+				"Dot",
+				"dotComList"
+			],
+			[
+				"do",
+				"dotComList"
+			],
+			[
+				"Do",
+				"DotCom"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"out",
+				"outer"
+			],
+			[
+				"cel",
+				"locationCells"
+			],
+			[
+				"imp",
+				"import"
+			],
+			[
+				"l",
+				"locationCells"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"D",
+				"Dog"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "increment.php",
+			"settings":
+			{
+				"buffer_size": 604,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/serba/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 160,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "self_lerning.sublime-project",
+			"settings":
+			{
+				"buffer_size": 147,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 442,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "strings.php",
+			"settings":
+			{
+				"buffer_size": 1591,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/serba/Рабочий стол/var/www/test/html/strings.php",
+			"settings":
+			{
+				"buffer_size": 678,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: else"
+			],
+			[
+				"Snippet: ma",
+				"Snippet: method (main)"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 536.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/serba/Jprojects/PHP/self_lerning"
+	],
+	"file_history":
+	[
+		"/home/serba/Jprojects/PHP/self_lerning/strings.php",
+		"/home/serba/.config/sublime-text-3/Packages/Phpcs/Default (Linux).sublime-keymap",
+		"/home/serba/.config/sublime-text-3/Packages/User/phpcs.sublime-settings",
+		"/home/serba/Jprojects/PHP/self_lerning/self_lerning.sublime-project",
+		"/home/serba/.config/sublime-text-3/Packages/Phpcs/phpcs.sublime-settings",
+		"/etc/php/7.2/cli/php.ini",
+		"/etc/php/7.2/apache2/php.ini",
+		"/home/serba/Рабочий стол/PHP/self_lerning/composer.json",
+		"/home/serba/Рабочий стол/PHP/self_lerning/dumper.php",
+		"/home/serba/Рабочий стол/PHP/self_lerning/index.php",
+		"/home/serba/Рабочий стол/PHP/self_lerning/strings.php",
+		"/home/serba/Рабочий стол/PHP/self_lerning/increment.php",
+		"/home/serba/Рабочий стол/PHP/LAMP conf/call to undefined function simplexml_load_string()_codesniffer_ php 7.2.txt",
+		"/home/serba/Jprojects/PHP/LAMP conf/Настройка php.ini",
+		"/home/serba/Jprojects/PHP/LAMP conf/перезапускаем апач.txt",
+		"/home/serba/Jprojects/PHP/self_lerning/json/json_answer.php",
+		"/home/serba/Jprojects/PHP/self_lerning/json/form_ajax.php",
+		"/home/serba/Jprojects/PHP/self_lerning/composer.json",
+		"/home/serba/Jprojects/PHP/self_lerning/increment.php",
+		"/home/serba/Jprojects/.gitignore",
+		"/home/serba/Jprojects/PHP/self_lerning/index.php",
+		"/home/serba/Jprojects/PHP/self_lerning/composer.lock",
+		"/home/serba/Jprojects/PHP/PHP_MySQL_HeadFirst/self_lerning/localhost/index.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/remove.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/2/mysqli_connect_test.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/sendemail.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/addemail.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/removeemail.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/removeemail.html",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/index.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/outdated/removeemail.html",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/addemail.html",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/source code/examples/ch03/final/email_list.sql",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/1/aliens/report.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/sendemail.html",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/2/aliens/report.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/2/aliens/report.html",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/3/style.css",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/source code/examples/ch03/page128/addemail.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/dumper.php",
+		"/home/serba/Рабочий стол/PHP_MySQL_HeadFirst/2/dumper.php",
+		"/home/serba/Рабочий стол/var/www/test/html/dumper.php",
+		"/home/serba/Рабочий стол/<ht.php",
+		"/home/serba/Jprojects/PHP/PHP_MySQL_HeadFirst/index.php",
+		"/home/serba/Jprojects/PHP/PHP_MySQL_HeadFirst/1/aliens/report.php",
+		"/home/serba/Jprojects/PHP/PHP_MySQL_HeadFirst/1/aliens/report.html",
+		"/home/serba/Jprojects/JavaScript/Exercises/javascript.ru/recursion.html",
+		"/home/serba/Jprojects/SQL/Washington_posts/max_comments.sql",
+		"/home/serba/Jprojects/JavaScript/14_J,jects_extentions/palindrome.html",
+		"/home/serba/Рабочий стол/var/www/test/html/index.html",
+		"/home/serba/Рабочий стол/var/www/test/html/string/charset/ascii.php",
+		"/home/serba/Jprojects/PHP/LAMP conf/Как установить и включить mbstring.txt",
+		"/home/serba/Рабочий стол/var/www/test/html/string/charset/mbstring.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/string/utf8crash.php",
+		"/home/serba/Рабочий стол/var/www/test/html/string/charset/ASCII.php",
+		"/home/serba/Рабочий стол/var/www/test/html/5.12.18/info.php",
+		"/home/serba/Рабочий стол/var/www/test/html/dumperEx.php",
+		"/home/serba/Jprojects/JavaScript/Exercises/factorial.html",
+		"/home/serba/Рабочий стол/var/www/test/html/dump.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/func/dumperEx.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/func/dumper.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/func/unset.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/func/toomanyargs.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/func/nested.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/func/closure.php",
+		"/home/serba/Рабочий стол/var/www/test/html/6.12.18/select.php",
+		"/home/serba/Рабочий стол/var/www/test/html/select.php",
+		"/home/serba/Рабочий стол/var/www/test/html/explode_implode.php",
+		"/home/serba/Рабочий стол/var/www/test/html/info.php",
+		"/home/serba/Jprojects/PHP/notepad.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/arrays/list.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/arrays/for.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/arrays/badplus.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/arrays/array_multisort.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/arrays/forkeys.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/arrays/foreach_copy.php",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/arrays/foreach_ref.php",
+		"/home/serba/Jprojects/SQL/Washington_posts/dump_no_data.sql",
+		"/tmp/dump.sql",
+		"/home/serba/Jprojects/SQL/Washington_posts/washington_posts.sql",
+		"/home/serba/Jprojects/SQL/Washington_posts/dump.sql",
+		"/home/serba/Рабочий стол/etc/php/7.2/apache2/php.ini",
+		"/home/serba/Рабочий стол/var/log/apache2/test-error.log",
+		"/home/serba/Рабочий стол/var/www/test/html/index.php",
+		"/home/serba/Рабочий стол/var/www/example.com/public_html/index.html",
+		"/home/serba/Рабочий стол/var/www/example.com/public_html/form.php",
+		"/home/serba/Рабочий стол/var/www/test/html/form.php",
+		"/home/serba/Рабочий стол/var/www/test/html/dump.html",
+		"/home/serba/Рабочий стол/var/www/test/form.php",
+		"/var/www/example.com/public_html/index.html",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/PHP7_Koterov_files/php7-master/cgiinside/c/script.c",
+		"/var/www/example.com/public_html/scripts/cgi-bin/test.pl",
+		"/home/serba/Рабочий стол/var/www/example.com/public_html/cgi-bin/test.pl",
+		"/home/serba/Jprojects/PHP/PHP_Koterov/p1.ch4/script.cgi",
+		"/var/www/test/html/index.html",
+		"/home/serba/Jprojects/SQL/6.sql",
+		"/home/serba/Jprojects/SQL/5.sql",
+		"/home/serba/Jprojects/SQL/4.sql",
+		"/home/serba/Jprojects/SQL/3.sql",
+		"/home/serba/Jprojects/SQL/2.sql",
+		"/home/serba/Jprojects/SQL/1.sql",
+		"/home/serba/Jprojects/SQL/7.sql",
+		"/home/serba/Jprojects/SQL/8.sql",
+		"/home/serba/Jprojects/SQL/8.sql]",
+		"/home/serba/Jprojects/SQL/MySql workbench : Access denied for user 'root'@'l.txt",
+		"/home/serba/Jprojects/JavaScript/13_Prototype/robot.html",
+		"/home/serba/Jprojects/JavaScript/13_Prototype/Dog-prototipe.html",
+		"/home/serba/Jprojects/JavaScript/12_Constructors/dogCatcher.html",
+		"/home/serba/Jprojects/JavaScript/12_Constructors/Coffee.html",
+		"/home/serba/Jprojects/JavaScript/12_Constructors/Coffee (копия).html",
+		"/home/serba/Jprojects/JavaScript/10_sorting/Web-cola.html",
+		"/home/serba/Jprojects/JavaScript/11_Замыкания/closure.html",
+		"/home/serba/Jprojects/JavaScript/7_handler/blur_game_full.html",
+		"/home/serba/Jprojects/JavaScript/11_Замыкания/handler.html",
+		"/home/serba/Jprojects/JavaScript/7_handler/blur_game_mouseover.html",
+		"/home/serba/Jprojects/JavaScript/7_handler/resize.html",
+		"/home/serba/Jprojects/JavaScript/9_firstclass_functions/passengers.html",
+		"/home/serba/Jprojects/JavaScript/8_PiratsMap/PiratesMap.html",
+		"/home/serba/Jprojects/JavaScript/Head-First-JavaScript-Programming-master/chapter9/map.html",
+		"/home/serba/Jprojects/JavaScript/7_handler/blur_game.html",
+		"/home/serba/Jprojects/JavaScript/8_PiratsMap/PiratesMap.html]",
+		"/home/serba/Jprojects/JavaScript/6_battleships/battleships.js",
+		"/home/serba/Jprojects/JavaScript/7_handler/battleships.html",
+		"/home/serba/Jprojects/JavaScript/6_battleships/battleships.html",
+		"/home/serba/Jprojects/JavaScript/6_battleships/battleships.css",
+		"/home/serba/Jprojects/JavaScript/Head-First-JavaScript-Programming-master/chapter8/battleship.html",
+		"/home/serba/Jprojects/JavaScript/6_battleships/batlleships.js",
+		"/home/serba/Jprojects/JavaScript/5_phoneValidate/dom.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"extension=xmlrpc",
+			"php_xm",
+			"extension=php_xml",
+			"extension=php_xmlrpc",
+			"xml",
+			"xmp",
+			"50",
+			");\n",
+			"first_name",
+			"<br>",
+			"Development",
+			"Development Value",
+			"error",
+			"report",
+			"n",
+			"robby",
+			";\n",
+			"<td id=\"\"> ",
+			"<td>",
+			"numParts",
+			"phrase",
+			"two"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"surname",
+			"\\n",
+			"x",
+			"rosie",
+			"<td id=\"\">",
+			"<td id=\"\"> ",
+			"index",
+			"",
+			"index",
+			"three"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "increment.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"SL.64.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/serba/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "self_lerning.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "strings.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								824,
+								824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/serba/Рабочий стол/var/www/test/html/strings.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "self_lerning.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"restore_index":
+			{
+				"43":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"44":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"45":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"56":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"59":
+				{
+					"group": 0,
+					"index": 4
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

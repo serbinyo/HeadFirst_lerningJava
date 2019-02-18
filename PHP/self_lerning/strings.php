@@ -1,7 +1,7 @@
 <?php
 
-require_once('vendor/autoload.php');
-require_once('dumper.php');
+require_once'vendor/autoload.php';
+require_once'dumper.php';
 
 $string = "мама мыла раму";
 $what = "раму";
@@ -12,13 +12,13 @@ $new_string = str_replace($what, $on_what, $string);
 echo $string . "<br>\n";
 echo $new_string . "<br>\n";
 
-$subs = mb_substr($new_string , 0, -6);
+$subs = mb_substr($new_string, 0, -6);
 
 echo $subs . "<br>\n";
 
 $word = " шею";
 
-$new_subs = substr_replace ($subs, $word, (strlen($subs)));
+$new_subs = substr_replace($subs, $word, (strlen($subs)));
 
 echo $new_subs . "<br>\n";
 
@@ -57,12 +57,19 @@ $str = 'Джунгли зовут!';
 
 //$str_array = explode('', $str); //не работает
 
-for ($i = 0; $i < mb_strlen($str); $i++)
-	$a[] = mb_substr($str, $i, 1);
+for ($i = 0; $i < mb_strlen($str); $i++) {
+    $a[] = mb_substr($str, $i, 1); 
+}
 
 //eval(\Psy\sh());
 
 dumper($a);
 
 $str = 'Марс, Барс, Корс, Морс, Торс';
-foreach (explode(', ', $str) as $value) echo $value . "<br>";
+foreach (explode(', ', $str) as $value) {
+    echo $value . "<br>"; 
+}
+
+$arr = ['key1' => 'Марс', 'key2' => 'Барс', 'key3' => 'Корс', 'key4' => 'Морс', 'key5' => 'Торс'];
+
+echo implode(', ', $arr);
